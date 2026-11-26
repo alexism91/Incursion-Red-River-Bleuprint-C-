@@ -1,0 +1,23 @@
+#pragma once
+#include "CoreMinimal.h"
+//CROSS-MODULE INCLUDE V2: -ModuleName=Engine -ObjectName=SplineComponent -FallbackName=SplineComponent
+#include "WaterSplineCurveDefaults.h"
+#include "WaterSplineComponent.generated.h"
+
+UCLASS(Blueprintable, MinimalAPI, ClassGroup=Custom, meta=(BlueprintSpawnableComponent))
+class UWaterSplineComponent : public USplineComponent {
+    GENERATED_BODY()
+public:
+    UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
+    FWaterSplineCurveDefaults WaterSplineDefaults;
+    
+    UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
+    FWaterSplineCurveDefaults PreviousWaterSplineDefaults;
+    
+    UWaterSplineComponent(const FObjectInitializer& ObjectInitializer);
+
+    UFUNCTION(BlueprintCallable)
+    void K2_SynchronizeAndBroadcastDataChange();
+    
+};
+

@@ -1,0 +1,24 @@
+#pragma once
+#include "CoreMinimal.h"
+//CROSS-MODULE INCLUDE V2: -ModuleName=CoreUObject -ObjectName=Object -FallbackName=Object
+#include "EChaosCacheInterpolationMode.h"
+#include "ChaosCacheCollection.generated.h"
+
+class UChaosCache;
+
+UCLASS(Blueprintable, MinimalAPI)
+class UChaosCacheCollection : public UObject {
+    GENERATED_BODY()
+public:
+    UPROPERTY(BlueprintReadWrite, EditAnywhere, Instanced, meta=(AllowPrivateAccess=true))
+    TArray<UChaosCache*> Caches;
+    
+private:
+    UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
+    EChaosCacheInterpolationMode InterpolationMode;
+    
+public:
+    UChaosCacheCollection();
+
+};
+

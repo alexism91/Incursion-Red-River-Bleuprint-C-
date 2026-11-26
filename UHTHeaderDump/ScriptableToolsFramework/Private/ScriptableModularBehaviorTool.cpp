@@ -1,0 +1,49 @@
+#include "ScriptableModularBehaviorTool.h"
+
+UScriptableModularBehaviorTool::UScriptableModularBehaviorTool() {
+}
+
+bool UScriptableModularBehaviorTool::IsShiftDown() const {
+    return false;
+}
+
+bool UScriptableModularBehaviorTool::IsCtrlDown() const {
+    return false;
+}
+
+bool UScriptableModularBehaviorTool::IsAltDown() const {
+    return false;
+}
+
+FScriptableToolModifierStates UScriptableModularBehaviorTool::GetActiveModifiers() {
+    return FScriptableToolModifierStates{};
+}
+
+void UScriptableModularBehaviorTool::AddSingleKeyInputBehavior(FOnKeyStateToggleDelegate OnKeyPressed, FOnKeyStateToggleDelegate OnKeyReleased, FOnForceEndCaptureDelegate_ScriptableTools OnForceEndCaptureFuncIn, FKey Key, const FMouseBehaviorModiferCheckDelegate CaptureCheck, int32 CapturePriority) {
+}
+
+void UScriptableModularBehaviorTool::AddSingleClickOrDragBehavior(FTestIfHitByClickDelegate IfHitByClick, FOnHitByClickDelegate OnHitByClick, FTestCanBeginClickDragSequenceDelegate CanBeginClickDragSequence, FOnClickPressDelegate OnClickPress, FOnClickDragDelegate OnClickDrag, FOnClickReleaseDelegate OnClickRelease, FOnTerminateDragSequenceDelegate OnTerminateDragSequence, FMouseBehaviorModiferCheckDelegate CaptureCheck, int32 CapturePriority, EScriptableToolMouseButton MouseButton, bool bBeginDragIfClickTargetNotHit, float ClickDistanceThreshold) {
+}
+
+void UScriptableModularBehaviorTool::AddSingleClickBehavior(const FTestIfHitByClickDelegate IfHitByClick, const FOnHitByClickDelegate OnHitByClick, const FMouseBehaviorModiferCheckDelegate CaptureCheck, int32 CapturePriority, EScriptableToolMouseButton MouseButton, bool bHitTestOnRelease) {
+}
+
+void UScriptableModularBehaviorTool::AddMultiKeyInputBehavior(FOnKeyStateToggleDelegate OnKeyPressed, FOnKeyStateToggleDelegate OnKeyReleased, FOnForceEndCaptureDelegate_ScriptableTools OnForceEndCaptureFuncIn, TArray<FKey> Keys, bool bRequireAllKeys, const FMouseBehaviorModiferCheckDelegate CaptureCheck, int32 CapturePriority) {
+}
+
+void UScriptableModularBehaviorTool::AddMultiClickSequenceBehavior(FOnBeginSequencePreviewDelegate OnBeginSequencePreview, FCanBeginClickSequenceDelegate CanBeginClickSequence, FOnBeginClickSequenceDelegate OnBeginClickSequence, FOnNextSequencePreviewDelegate OnNextSequencePreview, FOnNextSequenceClickDelegate OnNextSequenceClick, FOnTerminateClickSequenceDelegate OnTerminateClickSequence, FRequestAbortClickSequenceDelegate RequestAbortClickSequence, FMouseBehaviorModiferCheckDelegate CaptureCheck, const FMouseBehaviorModiferCheckDelegate HoverCaptureCheck, int32 CapturePriority, EScriptableToolMouseButton MouseButton) {
+}
+
+void UScriptableModularBehaviorTool::AddMouseWheelBehavior(FTestShouldRespondToMouseWheelDelegate TestShouldRespondToMouseWheel, FOnMouseWheelScrollUpDelegate OnMouseWheelScrollUp, FOnMouseWheelScrollDownDelegate OnMouseWheelScrollDown, FMouseBehaviorModiferCheckDelegate CaptureCheck, int32 CapturePriority) {
+}
+
+void UScriptableModularBehaviorTool::AddMouseHoverBehavior(FBeginHoverSequenceHitTestDelegate BeginHoverSequenceHitTest, FOnBeginHoverDelegate OnBeginHover, FOnUpdateHoverDelegate OnUpdateHover, FOnEndHoverDelegate OnEndHover, const FMouseBehaviorModiferCheckDelegate HoverCaptureCheck, int32 CapturePriority) {
+}
+
+void UScriptableModularBehaviorTool::AddDoubleClickBehavior(const FTestIfHitByClickDelegate IfHitByClick, const FOnHitByClickDelegate OnHitByClick, const FMouseBehaviorModiferCheckDelegate CaptureCheck, int32 CapturePriority, EScriptableToolMouseButton MouseButton, bool bHitTestOnRelease) {
+}
+
+void UScriptableModularBehaviorTool::AddClickDragBehavior(const FTestCanBeginClickDragSequenceDelegate CanBeginClickDragSequence, const FOnClickPressDelegate OnClickPress, const FOnClickDragDelegate OnClickDrag, const FOnClickReleaseDelegate OnClickRelease, const FOnTerminateDragSequenceDelegate OnTerminateDragSequence, const FMouseBehaviorModiferCheckDelegate CaptureCheck, int32 CapturePriority, EScriptableToolMouseButton MouseButton, bool bUpdateModifiersDuringDrag) {
+}
+
+

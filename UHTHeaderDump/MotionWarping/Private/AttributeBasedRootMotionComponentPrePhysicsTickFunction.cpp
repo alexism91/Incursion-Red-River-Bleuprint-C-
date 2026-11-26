@@ -1,0 +1,5 @@
+#include "AttributeBasedRootMotionComponentPrePhysicsTickFunction.h"
+
+FAttributeBasedRootMotionComponentPrePhysicsTickFunction::FAttributeBasedRootMotionComponentPrePhysicsTickFunction() {
+}
+

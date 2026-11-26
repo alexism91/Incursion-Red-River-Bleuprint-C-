@@ -1,0 +1,9 @@
+#include "SeamSculptToolProperties.h"
+
+USeamSculptToolProperties::USeamSculptToolProperties() {
+    this->bShowWireframe = false;
+    this->bHitBackFaces = false;
+    this->PathSimilarityWeight = 200.00f;
+}
+
+

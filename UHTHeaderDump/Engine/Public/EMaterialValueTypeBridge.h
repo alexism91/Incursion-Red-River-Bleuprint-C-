@@ -1,0 +1,46 @@
+#pragma once
+#include "CoreMinimal.h"
+#include "EMaterialValueTypeBridge.generated.h"
+
+UENUM(Flags)
+enum class EMaterialValueTypeBridge : uint64 {
+    Float1 = 1,
+    Float2,
+    Float3 = 4,
+    Float4 = 8,
+    Texture2D = 16,
+    TextureCube = 32,
+    Texture2DArray = 64,
+    TextureCubeArray = 128,
+    VolumeTexture = 256,
+    StaticBool = 512,
+    Unknown = 1024,
+    MaterialAttributes = 2048,
+    TextureExternal = 4096,
+    TextureVirtual = 8192,
+    SparseVolumeTexture = 16384,
+    VTPageTableResult = 32768,
+    ShadingModel = 65536,
+    Substrate = 131072,
+    LWCScalar = 262144,
+    LWCVector2 = 524288,
+    LWCVector3 = 1048576,
+    LWCVector4 = 2097152,
+    Execution = 4194304,
+    VoidStatement = 8388608,
+    Bool = 16777216,
+    UInt1 = 33554432,
+    UInt2 = 67108864,
+    UInt3 = 134217728,
+    UInt4 = 268435456,
+    TextureCollection = 536870912,
+    TextureMeshPaint = 1073741824,
+    TextureMaterialCache = 2147483648,
+    Texture = 3221238256,
+    Float = 15,
+    UInt = 503316480,
+    LWCType = 3932160,
+    Numeric = 20709391,
+    EMaterialValueTypeBridge_MAX = 4294967296 UMETA(Hidden),
+};
+

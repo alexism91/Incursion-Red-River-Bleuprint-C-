@@ -1,0 +1,5 @@
+#include "GameplayAbilityRepAnimMontageNetSerializerConfig.h"
+
+FGameplayAbilityRepAnimMontageNetSerializerConfig::FGameplayAbilityRepAnimMontageNetSerializerConfig() {
+}
+

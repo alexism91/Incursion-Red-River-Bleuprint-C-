@@ -1,0 +1,20 @@
+#pragma once
+#include "CoreMinimal.h"
+//CROSS-MODULE INCLUDE V2: -ModuleName=CoreUObject -ObjectName=Guid -FallbackName=Guid
+//CROSS-MODULE INCLUDE V2: -ModuleName=Engine -ObjectName=AssetUserData -FallbackName=AssetUserData
+#include "UsdLevelSequenceAssetUserData.generated.h"
+
+UCLASS(Blueprintable, EditInlineNew)
+class USDCLASSES_API UUsdLevelSequenceAssetUserData : public UAssetUserData {
+    GENERATED_BODY()
+public:
+    UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
+    FGuid LastCheckedSignature;
+    
+    UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
+    TSet<FGuid> HandledBindingGuids;
+    
+    UUsdLevelSequenceAssetUserData();
+
+};
+

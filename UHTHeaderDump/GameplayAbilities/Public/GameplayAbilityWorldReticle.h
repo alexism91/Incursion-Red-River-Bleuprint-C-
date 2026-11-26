@@ -1,0 +1,59 @@
+#pragma once
+#include "CoreMinimal.h"
+//CROSS-MODULE INCLUDE V2: -ModuleName=CoreUObject -ObjectName=Vector -FallbackName=Vector
+//CROSS-MODULE INCLUDE V2: -ModuleName=Engine -ObjectName=Actor -FallbackName=Actor
+#include "WorldReticleParameters.h"
+#include "GameplayAbilityWorldReticle.generated.h"
+
+class AGameplayAbilityTargetActor;
+class APlayerController;
+
+UCLASS(Blueprintable, MinimalAPI, NoExport, NotPlaceable)
+class AGameplayAbilityWorldReticle : public AActor {
+    GENERATED_BODY()
+public:
+    UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
+    FWorldReticleParameters Parameters;
+    
+    UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
+    bool bFaceOwnerFlat;
+    
+    UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
+    bool bSnapToTargetedActor;
+    
+protected:
+    UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
+    bool bIsTargetValid;
+    
+    UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
+    bool bIsTargetAnActor;
+    
+    UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
+    APlayerController* PrimaryPC;
+    
+    UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
+    AGameplayAbilityTargetActor* TargetingActor;
+    
+public:
+    AGameplayAbilityWorldReticle(const FObjectInitializer& ObjectInitializer);
+
+    UFUNCTION(BlueprintCallable, BlueprintImplementableEvent)
+    void SetReticleMaterialParamVector(FName ParamName, FVector Value);
+    
+    UFUNCTION(BlueprintCallable, BlueprintImplementableEvent)
+    void SetReticleMaterialParamFloat(FName ParamName, float Value);
+    
+    UFUNCTION(BlueprintCallable, BlueprintImplementableEvent)
+    void OnValidTargetChanged(bool bNewValue);
+    
+    UFUNCTION(BlueprintCallable, BlueprintImplementableEvent)
+    void OnTargetingAnActor(bool bNewValue);
+    
+    UFUNCTION(BlueprintCallable, BlueprintImplementableEvent)
+    void OnParametersInitialized();
+    
+    UFUNCTION(BlueprintCallable)
+    void FaceTowardSource(bool bFaceIn2D);
+    
+};
+

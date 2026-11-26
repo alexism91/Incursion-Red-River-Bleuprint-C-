@@ -1,0 +1,16 @@
+#pragma once
+#include "CoreMinimal.h"
+//CROSS-MODULE INCLUDE V2: -ModuleName=NetCore -ObjectName=FastArraySerializerItem -FallbackName=FastArraySerializerItem
+#include "PredictionKey.h"
+#include "ReplicatedPredictionKeyItem.generated.h"
+
+USTRUCT(BlueprintType)
+struct FReplicatedPredictionKeyItem : public FFastArraySerializerItem {
+    GENERATED_BODY()
+public:
+    UPROPERTY(EditAnywhere, meta=(AllowPrivateAccess=true))
+    FPredictionKey PredictionKey;
+    
+    GAMEPLAYABILITIES_API FReplicatedPredictionKeyItem();
+};
+

@@ -1,0 +1,5 @@
+#include "GameplayAbilityTargetingLocationInfoNetSerializerConfig.h"
+
+FGameplayAbilityTargetingLocationInfoNetSerializerConfig::FGameplayAbilityTargetingLocationInfoNetSerializerConfig() {
+}
+

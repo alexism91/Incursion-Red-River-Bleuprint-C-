@@ -1,0 +1,5 @@
+#include "MovieSceneDirectorBlueprintConditionPayloadVariable.h"
+
+FMovieSceneDirectorBlueprintConditionPayloadVariable::FMovieSceneDirectorBlueprintConditionPayloadVariable() {
+}
+

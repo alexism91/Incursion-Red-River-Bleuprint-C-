@@ -1,0 +1,31 @@
+#pragma once
+#include "CoreMinimal.h"
+#include "ERigControlAxis.h"
+#include "RigUnit_HierarchyAddControlFloat_LimitSettings.h"
+#include "RigUnit_HierarchyAddControl_ProxySettings.h"
+#include "RigUnit_HierarchyAddControl_Settings.h"
+#include "RigUnit_HierarchyAddControl_ShapeSettings.h"
+#include "RigUnit_HierarchyAddControlFloat_Settings.generated.h"
+
+USTRUCT(BlueprintType)
+struct FRigUnit_HierarchyAddControlFloat_Settings : public FRigUnit_HierarchyAddControl_Settings {
+    GENERATED_BODY()
+public:
+    UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
+    ERigControlAxis PrimaryAxis;
+    
+    UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
+    bool bIsScale;
+    
+    UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
+    FRigUnit_HierarchyAddControlFloat_LimitSettings Limits;
+    
+    UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
+    FRigUnit_HierarchyAddControl_ShapeSettings Shape;
+    
+    UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
+    FRigUnit_HierarchyAddControl_ProxySettings Proxy;
+    
+    CONTROLRIG_API FRigUnit_HierarchyAddControlFloat_Settings();
+};
+

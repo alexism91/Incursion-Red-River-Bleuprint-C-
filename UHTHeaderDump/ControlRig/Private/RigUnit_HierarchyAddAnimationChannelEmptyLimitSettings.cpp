@@ -1,0 +1,5 @@
+#include "RigUnit_HierarchyAddAnimationChannelEmptyLimitSettings.h"
+
+FRigUnit_HierarchyAddAnimationChannelEmptyLimitSettings::FRigUnit_HierarchyAddAnimationChannelEmptyLimitSettings() {
+}
+

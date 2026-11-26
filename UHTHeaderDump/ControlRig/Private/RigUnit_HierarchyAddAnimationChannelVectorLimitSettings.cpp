@@ -1,0 +1,5 @@
+#include "RigUnit_HierarchyAddAnimationChannelVectorLimitSettings.h"
+
+FRigUnit_HierarchyAddAnimationChannelVectorLimitSettings::FRigUnit_HierarchyAddAnimationChannelVectorLimitSettings() {
+}
+

@@ -1,0 +1,11 @@
+#include "RetargetProfile.h"
+
+FRetargetProfile::FRetargetProfile() {
+    this->bApplyTargetRetargetPose = false;
+    this->bApplySourceRetargetPose = false;
+    this->bForceAllIKOff = false;
+    this->bApplyChainSettings = false;
+    this->bApplyRootSettings = false;
+    this->bApplyGlobalSettings = false;
+}
+

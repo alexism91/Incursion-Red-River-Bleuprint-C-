@@ -1,0 +1,29 @@
+#pragma once
+#include "CoreMinimal.h"
+#include "EAxisList.generated.h"
+
+UENUM(BlueprintType)
+namespace EAxisList {
+    enum Type {
+        None,
+        X,
+        Y,
+        Z = 4,
+        Screen = 8,
+        XY = 3,
+        XZ = 5,
+        YZ,
+        XYZ,
+        All = 15,
+        ZRotation = YZ,
+        Rotate2D = Screen,
+        Left = 16,
+        Up = 32,
+        Forward = 64,
+        LU = 48,
+        LF = 80,
+        UF = 96,
+        LeftUpForward = 112,
+    };
+}
+

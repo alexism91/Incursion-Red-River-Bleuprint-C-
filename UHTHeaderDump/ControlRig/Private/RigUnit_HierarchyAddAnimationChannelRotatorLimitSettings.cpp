@@ -1,0 +1,5 @@
+#include "RigUnit_HierarchyAddAnimationChannelRotatorLimitSettings.h"
+
+FRigUnit_HierarchyAddAnimationChannelRotatorLimitSettings::FRigUnit_HierarchyAddAnimationChannelRotatorLimitSettings() {
+}
+

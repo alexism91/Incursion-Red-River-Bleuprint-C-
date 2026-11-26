@@ -1,0 +1,24 @@
+#pragma once
+#include "CoreMinimal.h"
+#include "EGameplayAbilityActivationMode.h"
+#include "PredictionKey.h"
+#include "GameplayAbilityActivationInfo.generated.h"
+
+USTRUCT(BlueprintType)
+struct FGameplayAbilityActivationInfo {
+    GENERATED_BODY()
+public:
+    UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
+    TEnumAsByte<EGameplayAbilityActivationMode::Type> ActivationMode;
+    
+    UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
+    uint8 bCanBeEndedByOtherInstance: 1;
+    
+private:
+    UPROPERTY(EditAnywhere, meta=(AllowPrivateAccess=true))
+    FPredictionKey PredictionKeyWhenActivated;
+    
+public:
+    GAMEPLAYABILITIES_API FGameplayAbilityActivationInfo();
+};
+

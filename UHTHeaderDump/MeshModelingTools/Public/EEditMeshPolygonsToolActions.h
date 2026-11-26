@@ -1,0 +1,47 @@
+#pragma once
+#include "CoreMinimal.h"
+#include "EEditMeshPolygonsToolActions.generated.h"
+
+UENUM(BlueprintType)
+enum class EEditMeshPolygonsToolActions : uint8 {
+    NoAction,
+    AcceptCurrent,
+    CancelCurrent,
+    Extrude,
+    PushPull,
+    Offset,
+    Inset,
+    Outset,
+    BevelFaces,
+    InsertEdge,
+    InsertEdgeLoop,
+    Complete,
+    PlaneCut,
+    Merge,
+    Delete,
+    CutFaces,
+    RecalculateNormals,
+    FlipNormals,
+    Retriangulate,
+    Decompose,
+    Disconnect,
+    Duplicate,
+    CollapseEdge,
+    WeldEdges,
+    WeldEdgesCentered,
+    StraightenEdge,
+    FillHole,
+    BridgeEdges,
+    ExtrudeEdges,
+    BevelEdges,
+    SimplifyAlongEdges,
+    PlanarProjectionUV,
+    SimplifyByGroups,
+    RegenerateExtraCorners,
+    PokeSingleFace,
+    SplitSingleEdge,
+    FlipSingleEdge,
+    CollapseSingleEdge,
+    BevelAuto,
+};
+

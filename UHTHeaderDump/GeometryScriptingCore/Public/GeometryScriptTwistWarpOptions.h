@@ -1,0 +1,20 @@
+#pragma once
+#include "CoreMinimal.h"
+#include "GeometryScriptTwistWarpOptions.generated.h"
+
+USTRUCT(BlueprintType)
+struct FGeometryScriptTwistWarpOptions {
+    GENERATED_BODY()
+public:
+    UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
+    bool bSymmetricExtents;
+    
+    UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
+    float LowerExtent;
+    
+    UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
+    bool bBidirectional;
+    
+    GEOMETRYSCRIPTINGCORE_API FGeometryScriptTwistWarpOptions();
+};
+

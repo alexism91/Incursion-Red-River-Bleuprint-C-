@@ -1,0 +1,5 @@
+#include "TypedElementPropertyBagPlaceholderTypeInfoColumn.h"
+
+FTypedElementPropertyBagPlaceholderTypeInfoColumn::FTypedElementPropertyBagPlaceholderTypeInfoColumn() {
+}
+

@@ -1,0 +1,19 @@
+#pragma once
+#include "CoreMinimal.h"
+#include "GameplayAbilityTargetActor_Trace.h"
+#include "GameplayAbilityTargetActor_GroundTrace.generated.h"
+
+UCLASS(Blueprintable, MinimalAPI, NoExport)
+class AGameplayAbilityTargetActor_GroundTrace : public AGameplayAbilityTargetActor_Trace {
+    GENERATED_BODY()
+public:
+    UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
+    float CollisionRadius;
+    
+    UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
+    float CollisionHeight;
+    
+    AGameplayAbilityTargetActor_GroundTrace(const FObjectInitializer& ObjectInitializer);
+
+};
+

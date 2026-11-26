@@ -1,0 +1,6 @@
+#include "MetaHumanDefaultSkeletalMeshPipelineMaterialParameters.h"
+
+UMetaHumanDefaultSkeletalMeshPipelineMaterialParameters::UMetaHumanDefaultSkeletalMeshPipelineMaterialParameters() {
+}
+
+

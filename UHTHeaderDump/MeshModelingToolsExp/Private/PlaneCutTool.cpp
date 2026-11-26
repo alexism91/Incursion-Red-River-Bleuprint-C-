@@ -1,0 +1,14 @@
+#include "PlaneCutTool.h"
+
+UPlaneCutTool::UPlaneCutTool() {
+    this->BasicProperties = NULL;
+    this->PlaneMechanic = NULL;
+}
+
+void UPlaneCutTool::FlipPlane() {
+}
+
+void UPlaneCutTool::Cut() {
+}
+
+

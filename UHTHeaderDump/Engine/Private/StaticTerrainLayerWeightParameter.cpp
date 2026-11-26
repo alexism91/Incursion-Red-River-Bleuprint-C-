@@ -1,0 +1,9 @@
+#include "StaticTerrainLayerWeightParameter.h"
+
+FStaticTerrainLayerWeightParameter::FStaticTerrainLayerWeightParameter() {
+    this->bOverride = false;
+    this->WeightmapIndex = 0;
+    this->bIsRepeatedLayer = false;
+    this->bWeightBasedBlend = false;
+}
+

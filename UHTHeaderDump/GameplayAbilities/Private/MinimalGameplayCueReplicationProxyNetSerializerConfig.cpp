@@ -1,0 +1,5 @@
+#include "MinimalGameplayCueReplicationProxyNetSerializerConfig.h"
+
+FMinimalGameplayCueReplicationProxyNetSerializerConfig::FMinimalGameplayCueReplicationProxyNetSerializerConfig() {
+}
+

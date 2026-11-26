@@ -1,0 +1,16 @@
+#pragma once
+#include "CoreMinimal.h"
+//CROSS-MODULE INCLUDE V2: -ModuleName=MovieScene -ObjectName=MovieSceneFloatChannel -FallbackName=MovieSceneFloatChannel
+#include "BaseParameterNameAndValue.h"
+#include "ScalarParameterNameAndCurve.generated.h"
+
+USTRUCT(BlueprintType)
+struct FScalarParameterNameAndCurve : public FBaseParameterNameAndValue {
+    GENERATED_BODY()
+public:
+    UPROPERTY(EditAnywhere, meta=(AllowPrivateAccess=true))
+    FMovieSceneFloatChannel ParameterCurve;
+    
+    MOVIESCENETRACKS_API FScalarParameterNameAndCurve();
+};
+

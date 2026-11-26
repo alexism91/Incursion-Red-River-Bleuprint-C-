@@ -1,0 +1,15 @@
+#pragma once
+#include "CoreMinimal.h"
+//CROSS-MODULE INCLUDE V2: -ModuleName=IrisCore -ObjectName=NetSerializerConfig -FallbackName=NetSerializerConfig
+#include "CharacterNetworkSerializationPackedBitsNetSerializerConfig.generated.h"
+
+USTRUCT(BlueprintType)
+struct FCharacterNetworkSerializationPackedBitsNetSerializerConfig : public FNetSerializerConfig {
+    GENERATED_BODY()
+public:
+    UPROPERTY(EditAnywhere, meta=(AllowPrivateAccess=true))
+    uint32 MaxAllowedDataBits;
+    
+    ENGINE_API FCharacterNetworkSerializationPackedBitsNetSerializerConfig();
+};
+

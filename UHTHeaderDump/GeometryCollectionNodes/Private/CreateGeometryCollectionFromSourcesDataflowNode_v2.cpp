@@ -1,0 +1,5 @@
+#include "CreateGeometryCollectionFromSourcesDataflowNode_v2.h"
+
+FCreateGeometryCollectionFromSourcesDataflowNode_v2::FCreateGeometryCollectionFromSourcesDataflowNode_v2() {
+}
+

@@ -1,0 +1,19 @@
+#pragma once
+#include "CoreMinimal.h"
+//CROSS-MODULE INCLUDE V2: -ModuleName=DataflowCore -ObjectName=DataflowNode -FallbackName=DataflowNode
+#include "DataflowSphereCovering.h"
+#include "SphereCoveringCountSpheresNode.generated.h"
+
+USTRUCT(BlueprintType)
+struct FSphereCoveringCountSpheresNode : public FDataflowNode {
+    GENERATED_BODY()
+public:
+    UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
+    FDataflowSphereCovering SphereCovering;
+    
+    UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
+    int32 NumSpheres;
+    
+    GEOMETRYCOLLECTIONNODES_API FSphereCoveringCountSpheresNode();
+};
+

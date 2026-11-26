@@ -1,0 +1,19 @@
+#pragma once
+#include "CoreMinimal.h"
+#include "BTDecorator_BlackboardBase.h"
+#include "ValueOrBBKey_Class.h"
+#include "BTDecorator_IsBBEntryOfClass.generated.h"
+
+UCLASS(Blueprintable, MinimalAPI)
+class UBTDecorator_IsBBEntryOfClass : public UBTDecorator_BlackboardBase {
+    GENERATED_BODY()
+public:
+protected:
+    UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
+    FValueOrBBKey_Class TestClass;
+    
+public:
+    UBTDecorator_IsBBEntryOfClass();
+
+};
+

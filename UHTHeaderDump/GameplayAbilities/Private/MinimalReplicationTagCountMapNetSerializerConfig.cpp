@@ -1,0 +1,5 @@
+#include "MinimalReplicationTagCountMapNetSerializerConfig.h"
+
+FMinimalReplicationTagCountMapNetSerializerConfig::FMinimalReplicationTagCountMapNetSerializerConfig() {
+}
+

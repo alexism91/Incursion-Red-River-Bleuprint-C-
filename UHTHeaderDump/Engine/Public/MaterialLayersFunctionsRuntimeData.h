@@ -1,0 +1,23 @@
+#pragma once
+#include "CoreMinimal.h"
+#include "MaterialLayersFunctionsTree.h"
+#include "MaterialLayersFunctionsRuntimeData.generated.h"
+
+class UMaterialFunctionInterface;
+
+USTRUCT(BlueprintType)
+struct FMaterialLayersFunctionsRuntimeData {
+    GENERATED_BODY()
+public:
+    UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
+    TArray<UMaterialFunctionInterface*> Layers;
+    
+    UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
+    TArray<UMaterialFunctionInterface*> Blends;
+    
+    UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
+    FMaterialLayersFunctionsTree Tree;
+    
+    ENGINE_API FMaterialLayersFunctionsRuntimeData();
+};
+
