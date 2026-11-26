@@ -1,0 +1,1 @@
+class UBP_IRRExtractionComponent_C : public UIRRExtractionComponent;

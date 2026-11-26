@@ -1,0 +1,1 @@
+class UML_MissionComponent_C : public UObject;

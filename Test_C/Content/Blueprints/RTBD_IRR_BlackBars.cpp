@@ -1,0 +1,1 @@
+class URTBD_IRR_BlackBars_C : public URichTextBlockDecorator;

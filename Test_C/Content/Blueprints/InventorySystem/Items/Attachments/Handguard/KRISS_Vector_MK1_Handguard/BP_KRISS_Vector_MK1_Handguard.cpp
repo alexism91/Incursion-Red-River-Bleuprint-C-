@@ -1,0 +1,9 @@
+class ABP_KRISS_Vector_MK1_Handguard_C : public ABP_MasterAttachment_C
+{
+public:
+    bool bHasCookedComponentInstancingData = true;
+    class USimpleConstructionScript* SimpleConstructionScript = "SimpleConstructionScript'Test_C/Content/Blueprints/InventorySystem/Items/Attachments/Handguard/KRISS_Vector_MK1_Handguard/BP_KRISS_Vector_MK1_Handguard.BP_KRISS_Vector_MK1_Handguard_C:SimpleConstructionScript_0'";
+    class UInheritableComponentHandler* InheritableComponentHandler = "InheritableComponentHandler'Test_C/Content/Blueprints/InventorySystem/Items/Attachments/Handguard/KRISS_Vector_MK1_Handguard/BP_KRISS_Vector_MK1_Handguard.BP_KRISS_Vector_MK1_Handguard_C:InheritableComponentHandler'";
+    class UInventoryComponent* InventoryComponent = "InventoryComponent'Test_C/Content/Blueprints/InventorySystem/Items/Attachments/Handguard/KRISS_Vector_MK1_Handguard/BP_KRISS_Vector_MK1_Handguard.Default__BP_KRISS_Vector_MK1_Handguard_C:InventoryComponent'";
+    class UPickUpComponent* PickUpComponent = "PickUpComponent'Test_C/Content/Blueprints/InventorySystem/Items/Attachments/Handguard/KRISS_Vector_MK1_Handguard/BP_KRISS_Vector_MK1_Handguard.Default__BP_KRISS_Vector_MK1_Handguard_C:PickupComponent'";
+};

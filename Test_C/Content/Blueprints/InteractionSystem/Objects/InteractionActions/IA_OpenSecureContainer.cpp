@@ -1,0 +1,1 @@
+class UIA_OpenSecureContainer_C : public UInteractionAction_OpenSecureContainer;

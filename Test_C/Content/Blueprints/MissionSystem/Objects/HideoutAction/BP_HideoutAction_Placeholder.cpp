@@ -1,0 +1,1 @@
+class UBP_HideoutAction_Placeholder_C : public UIRRHideoutAction;

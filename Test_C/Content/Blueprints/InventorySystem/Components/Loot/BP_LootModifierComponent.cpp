@@ -1,0 +1,1 @@
+class UBP_LootModifierComponent_C : public ULootModifierComponent;

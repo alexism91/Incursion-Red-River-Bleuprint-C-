@@ -1,0 +1,9 @@
+class ABP_VAL_Aftermarket_Picatinny_Rail_Long_C : public ABP_MasterRail_C
+{
+public:
+    bool bHasCookedComponentInstancingData = true;
+    class USimpleConstructionScript* SimpleConstructionScript = "SimpleConstructionScript'Test_C/Content/Blueprints/InventorySystem/Items/Attachments/Rail/VAL_Aftermarket_Picatinny_Rail_Long/BP_VAL_Aftermarket_Picatinny_Rail_Long.BP_VAL_Aftermarket_Picatinny_Rail_Long_C:SimpleConstructionScript_0'";
+    class UInheritableComponentHandler* InheritableComponentHandler = "InheritableComponentHandler'Test_C/Content/Blueprints/InventorySystem/Items/Attachments/Rail/VAL_Aftermarket_Picatinny_Rail_Long/BP_VAL_Aftermarket_Picatinny_Rail_Long.BP_VAL_Aftermarket_Picatinny_Rail_Long_C:InheritableComponentHandler'";
+    class UInventoryComponent* InventoryComponent = "InventoryComponent'Test_C/Content/Blueprints/InventorySystem/Items/Attachments/Rail/VAL_Aftermarket_Picatinny_Rail_Long/BP_VAL_Aftermarket_Picatinny_Rail_Long.Default__BP_VAL_Aftermarket_Picatinny_Rail_Long_C:InventoryComponent'";
+    class UPickUpComponent* PickUpComponent = "PickUpComponent'Test_C/Content/Blueprints/InventorySystem/Items/Attachments/Rail/VAL_Aftermarket_Picatinny_Rail_Long/BP_VAL_Aftermarket_Picatinny_Rail_Long.Default__BP_VAL_Aftermarket_Picatinny_Rail_Long_C:PickupComponent'";
+};

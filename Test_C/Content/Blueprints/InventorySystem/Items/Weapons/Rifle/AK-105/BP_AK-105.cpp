@@ -1,0 +1,11 @@
+class ABP_AK-105_C : public ABP_AK-74M_C
+{
+public:
+    bool bHasCookedComponentInstancingData = true;
+    class USimpleConstructionScript* SimpleConstructionScript = "SimpleConstructionScript'Test_C/Content/Blueprints/InventorySystem/Items/Weapons/Rifle/AK-105/BP_AK-105.BP_AK-105_C:SimpleConstructionScript_0'";
+    class UInheritableComponentHandler* InheritableComponentHandler = "InheritableComponentHandler'Test_C/Content/Blueprints/InventorySystem/Items/Weapons/Rifle/AK-105/BP_AK-105.BP_AK-105_C:InheritableComponentHandler'";
+    class UInventoryComponent* InventoryComponent = "InventoryComponent'Test_C/Content/Blueprints/InventorySystem/Items/Weapons/Rifle/AK-105/BP_AK-105.Default__BP_AK-105_C:InventoryComponent'";
+    class UPickUpComponent* PickUpComponent = "PickUpComponent'Test_C/Content/Blueprints/InventorySystem/Items/Weapons/Rifle/AK-105/BP_AK-105.Default__BP_AK-105_C:PickupComponent'";
+    class UBP_SightComponent_C* BP_SightComponent1;
+    class UMuzzleComponent* Muzzle_0;
+};

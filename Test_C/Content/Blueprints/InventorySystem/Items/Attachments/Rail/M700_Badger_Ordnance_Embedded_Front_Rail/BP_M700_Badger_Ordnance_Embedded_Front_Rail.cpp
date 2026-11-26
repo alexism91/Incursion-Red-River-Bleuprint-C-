@@ -1,0 +1,9 @@
+class ABP_M700_Badger_Ordnance_Embedded_Front_Rail_C : public ABP_MasterRail_C
+{
+public:
+    bool bHasCookedComponentInstancingData = true;
+    class USimpleConstructionScript* SimpleConstructionScript = "SimpleConstructionScript'Test_C/Content/Blueprints/InventorySystem/Items/Attachments/Rail/M700_Badger_Ordnance_Embedded_Front_Rail/BP_M700_Badger_Ordnance_Embedded_Front_Rail.BP_M700_Badger_Ordnance_Embedded_Front_Rail_C:SimpleConstructionScript_0'";
+    class UInheritableComponentHandler* InheritableComponentHandler = "InheritableComponentHandler'Test_C/Content/Blueprints/InventorySystem/Items/Attachments/Rail/M700_Badger_Ordnance_Embedded_Front_Rail/BP_M700_Badger_Ordnance_Embedded_Front_Rail.BP_M700_Badger_Ordnance_Embedded_Front_Rail_C:InheritableComponentHandler'";
+    class UInventoryComponent* InventoryComponent = "InventoryComponent'Test_C/Content/Blueprints/InventorySystem/Items/Attachments/Rail/M700_Badger_Ordnance_Embedded_Front_Rail/BP_M700_Badger_Ordnance_Embedded_Front_Rail.Default__BP_M700_Badger_Ordnance_Embedded_Front_Rail_C:InventoryComponent'";
+    class UPickUpComponent* PickUpComponent = "PickUpComponent'Test_C/Content/Blueprints/InventorySystem/Items/Attachments/Rail/M700_Badger_Ordnance_Embedded_Front_Rail/BP_M700_Badger_Ordnance_Embedded_Front_Rail.Default__BP_M700_Badger_Ordnance_Embedded_Front_Rail_C:PickupComponent'";
+};

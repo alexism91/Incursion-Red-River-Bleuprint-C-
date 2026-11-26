@@ -1,0 +1,1 @@
+class UBP_IRRMessageComponent_C : public UIRRMessageComponent;

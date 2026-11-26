@@ -1,0 +1,1 @@
+class UBP_Cosmetic_Sympton_C : public UIRRHealthCosmetic_Symptom;

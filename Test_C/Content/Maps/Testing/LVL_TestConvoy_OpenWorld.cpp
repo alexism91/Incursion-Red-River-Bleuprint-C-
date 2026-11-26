@@ -1,0 +1,1 @@
+class ALVL_TestConvoy_OpenWorld_C : public ALevelScriptActor;

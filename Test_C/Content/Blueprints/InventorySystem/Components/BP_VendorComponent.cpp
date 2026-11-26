@@ -1,0 +1,1 @@
+class UBP_VendorComponent_C : public UVendorComponent;

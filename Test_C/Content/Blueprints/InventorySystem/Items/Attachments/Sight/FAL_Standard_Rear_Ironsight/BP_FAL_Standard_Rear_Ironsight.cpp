@@ -1,0 +1,10 @@
+class ABP_FAL_Standard_Rear_Ironsight_C : public ABP_MasterSight_C
+{
+public:
+    bool bHasCookedComponentInstancingData = true;
+    class USimpleConstructionScript* SimpleConstructionScript = "SimpleConstructionScript'Test_C/Content/Blueprints/InventorySystem/Items/Attachments/Sight/FAL_Standard_Rear_Ironsight/BP_FAL_Standard_Rear_Ironsight.BP_FAL_Standard_Rear_Ironsight_C:SimpleConstructionScript_0'";
+    class UInheritableComponentHandler* InheritableComponentHandler = "InheritableComponentHandler'Test_C/Content/Blueprints/InventorySystem/Items/Attachments/Sight/FAL_Standard_Rear_Ironsight/BP_FAL_Standard_Rear_Ironsight.BP_FAL_Standard_Rear_Ironsight_C:InheritableComponentHandler'";
+    class UInventoryComponent* InventoryComponent = "InventoryComponent'Test_C/Content/Blueprints/InventorySystem/Items/Attachments/Sight/FAL_Standard_Rear_Ironsight/BP_FAL_Standard_Rear_Ironsight.Default__BP_FAL_Standard_Rear_Ironsight_C:InventoryComponent'";
+    class UPickUpComponent* PickUpComponent = "PickUpComponent'Test_C/Content/Blueprints/InventorySystem/Items/Attachments/Sight/FAL_Standard_Rear_Ironsight/BP_FAL_Standard_Rear_Ironsight.Default__BP_FAL_Standard_Rear_Ironsight_C:PickupComponent'";
+    class UBP_SightComponent_C* BP_SightComponent;
+};

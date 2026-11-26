@@ -1,0 +1,1 @@
+class UBP_FirstPersonCoreComponent_C : public UFirstPersonCoreComponent;

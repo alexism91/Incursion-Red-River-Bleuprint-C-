@@ -1,0 +1,1 @@
+class UBP_Widget_Macros_C : public UUserWidget;

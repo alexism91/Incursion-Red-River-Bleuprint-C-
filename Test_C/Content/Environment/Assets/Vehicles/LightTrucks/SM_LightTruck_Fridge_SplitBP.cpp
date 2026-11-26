@@ -1,0 +1,7 @@
+class ASM_LightTruck_Fridge_SplitBP_C : public AActor
+{
+public:
+    class USimpleConstructionScript* SimpleConstructionScript = "SimpleConstructionScript'Test_C/Content/Environment/Assets/Vehicles/LightTrucks/SM_LightTruck_Fridge_SplitBP.SM_LightTruck_Fridge_SplitBP_C:SimpleConstructionScript_0'";
+    class UStaticMeshComponent* MaskedMesh;
+    class UStaticMeshComponent* OpaqueMesh;
+};

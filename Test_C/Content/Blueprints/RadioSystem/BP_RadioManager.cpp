@@ -1,0 +1,1 @@
+class UBP_RadioManager_C : public UIRRRadioManager;

@@ -1,0 +1,10 @@
+class ABP_M14_Smith_Enterprise_SOCOM_16_762x51_Muzzle_Brake_C : public ABP_MasterAttachment_C
+{
+public:
+    bool bHasCookedComponentInstancingData = true;
+    class USimpleConstructionScript* SimpleConstructionScript = "SimpleConstructionScript'Test_C/Content/Blueprints/InventorySystem/Items/Attachments/Muzzle/M14_Smith_Enterprise_SOCOM_16_762x51_Muzzle_Brake/BP_M14_Smith_Enterprise_SOCOM_16_762x51_Muzzle_Brake.BP_M14_Smith_Enterprise_SOCOM_16_762x51_Muzzle_Brake_C:SimpleConstructionScript_0'";
+    class UInheritableComponentHandler* InheritableComponentHandler = "InheritableComponentHandler'Test_C/Content/Blueprints/InventorySystem/Items/Attachments/Muzzle/M14_Smith_Enterprise_SOCOM_16_762x51_Muzzle_Brake/BP_M14_Smith_Enterprise_SOCOM_16_762x51_Muzzle_Brake.BP_M14_Smith_Enterprise_SOCOM_16_762x51_Muzzle_Brake_C:InheritableComponentHandler'";
+    class UInventoryComponent* InventoryComponent = "InventoryComponent'Test_C/Content/Blueprints/InventorySystem/Items/Attachments/Muzzle/M14_Smith_Enterprise_SOCOM_16_762x51_Muzzle_Brake/BP_M14_Smith_Enterprise_SOCOM_16_762x51_Muzzle_Brake.Default__BP_M14_Smith_Enterprise_SOCOM_16_762x51_Muzzle_Brake_C:InventoryComponent'";
+    class UPickUpComponent* PickUpComponent = "PickUpComponent'Test_C/Content/Blueprints/InventorySystem/Items/Attachments/Muzzle/M14_Smith_Enterprise_SOCOM_16_762x51_Muzzle_Brake/BP_M14_Smith_Enterprise_SOCOM_16_762x51_Muzzle_Brake.Default__BP_M14_Smith_Enterprise_SOCOM_16_762x51_Muzzle_Brake_C:PickupComponent'";
+    class UMuzzleComponent* Muzzle;
+};

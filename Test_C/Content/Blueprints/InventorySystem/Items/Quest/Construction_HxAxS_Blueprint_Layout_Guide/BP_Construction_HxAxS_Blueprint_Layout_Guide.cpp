@@ -1,0 +1,9 @@
+class ABP_Construction_HxAxS_Blueprint_Layout_Guide_C : public ABP_QuestMaster_C
+{
+public:
+    bool bHasCookedComponentInstancingData = true;
+    class USimpleConstructionScript* SimpleConstructionScript = "SimpleConstructionScript'Test_C/Content/Blueprints/InventorySystem/Items/Quest/Construction_HxAxS_Blueprint_Layout_Guide/BP_Construction_HxAxS_Blueprint_Layout_Guide.BP_Construction_HxAxS_Blueprint_Layout_Guide_C:SimpleConstructionScript_0'";
+    class UInheritableComponentHandler* InheritableComponentHandler = "InheritableComponentHandler'Test_C/Content/Blueprints/InventorySystem/Items/Quest/Construction_HxAxS_Blueprint_Layout_Guide/BP_Construction_HxAxS_Blueprint_Layout_Guide.BP_Construction_HxAxS_Blueprint_Layout_Guide_C:InheritableComponentHandler'";
+    class UInventoryComponent* InventoryComponent = "InventoryComponent'Test_C/Content/Blueprints/InventorySystem/Items/Quest/Construction_HxAxS_Blueprint_Layout_Guide/BP_Construction_HxAxS_Blueprint_Layout_Guide.Default__BP_Construction_HxAxS_Blueprint_Layout_Guide_C:InventoryComponent'";
+    class UPickUpComponent* PickUpComponent = "PickUpComponent'Test_C/Content/Blueprints/InventorySystem/Items/Quest/Construction_HxAxS_Blueprint_Layout_Guide/BP_Construction_HxAxS_Blueprint_Layout_Guide.Default__BP_Construction_HxAxS_Blueprint_Layout_Guide_C:PickupComponent'";
+};

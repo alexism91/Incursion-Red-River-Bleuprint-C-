@@ -1,0 +1,1 @@
+class UBP_GameplayTagsComponent_C : public UGameplayTagsComponent;

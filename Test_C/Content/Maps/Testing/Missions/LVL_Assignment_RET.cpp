@@ -1,0 +1,1 @@
+class ALVL_Assignment_RET_C : public ALevelScriptActor;

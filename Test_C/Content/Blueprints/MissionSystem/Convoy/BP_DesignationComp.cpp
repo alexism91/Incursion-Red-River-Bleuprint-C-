@@ -1,0 +1,1 @@
+class UBP_DesignationComp_C : public UIRRDesignationSubjectComponent;

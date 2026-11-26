@@ -1,0 +1,1 @@
+class UBP_GameplayAbilityComponent_C : public UGameplayAbilityComponent;

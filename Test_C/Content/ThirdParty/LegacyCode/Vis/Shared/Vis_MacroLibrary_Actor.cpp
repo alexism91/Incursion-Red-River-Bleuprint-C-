@@ -1,0 +1,1 @@
+class AVis_MacroLibrary_Actor_C : public AActor;

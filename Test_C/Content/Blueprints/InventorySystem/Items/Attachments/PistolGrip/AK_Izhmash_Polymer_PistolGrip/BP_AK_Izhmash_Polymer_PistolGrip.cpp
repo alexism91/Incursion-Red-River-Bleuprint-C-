@@ -1,0 +1,9 @@
+class ABP_AK_Izhmash_Polymer_PistolGrip_C : public ABP_StaticMasterPickup_C
+{
+public:
+    bool bHasCookedComponentInstancingData = true;
+    class USimpleConstructionScript* SimpleConstructionScript = "SimpleConstructionScript'Test_C/Content/Blueprints/InventorySystem/Items/Attachments/PistolGrip/AK_Izhmash_Polymer_PistolGrip/BP_AK_Izhmash_Polymer_PistolGrip.BP_AK_Izhmash_Polymer_PistolGrip_C:SimpleConstructionScript_0'";
+    class UInheritableComponentHandler* InheritableComponentHandler = "InheritableComponentHandler'Test_C/Content/Blueprints/InventorySystem/Items/Attachments/PistolGrip/AK_Izhmash_Polymer_PistolGrip/BP_AK_Izhmash_Polymer_PistolGrip.BP_AK_Izhmash_Polymer_PistolGrip_C:InheritableComponentHandler'";
+    class UInventoryComponent* InventoryComponent = "InventoryComponent'Test_C/Content/Blueprints/InventorySystem/Items/Attachments/PistolGrip/AK_Izhmash_Polymer_PistolGrip/BP_AK_Izhmash_Polymer_PistolGrip.Default__BP_AK_Izhmash_Polymer_PistolGrip_C:InventoryComponent'";
+    class UPickUpComponent* PickUpComponent = "PickUpComponent'Test_C/Content/Blueprints/InventorySystem/Items/Attachments/PistolGrip/AK_Izhmash_Polymer_PistolGrip/BP_AK_Izhmash_Polymer_PistolGrip.Default__BP_AK_Izhmash_Polymer_PistolGrip_C:PickupComponent'";
+};

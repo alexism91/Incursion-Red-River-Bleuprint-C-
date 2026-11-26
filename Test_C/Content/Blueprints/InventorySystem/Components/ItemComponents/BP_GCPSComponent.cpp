@@ -1,0 +1,1 @@
+class UBP_GCPSComponent_C : public UIRRGCPSComponent;

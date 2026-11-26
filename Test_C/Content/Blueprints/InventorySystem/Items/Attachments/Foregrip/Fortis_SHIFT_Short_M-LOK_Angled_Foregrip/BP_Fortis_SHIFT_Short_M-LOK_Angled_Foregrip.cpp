@@ -1,0 +1,9 @@
+class ABP_Fortis_SHIFT_Short_M-LOK_Angled_Foregrip_C : public ABP_MasterForegrip_C
+{
+public:
+    bool bHasCookedComponentInstancingData = true;
+    class USimpleConstructionScript* SimpleConstructionScript = "SimpleConstructionScript'Test_C/Content/Blueprints/InventorySystem/Items/Attachments/Foregrip/Fortis_SHIFT_Short_M-LOK_Angled_Foregrip/BP_Fortis_SHIFT_Short_M-LOK_Angled_Foregrip.BP_Fortis_SHIFT_Short_M-LOK_Angled_Foregrip_C:SimpleConstructionScript_0'";
+    class UInheritableComponentHandler* InheritableComponentHandler = "InheritableComponentHandler'Test_C/Content/Blueprints/InventorySystem/Items/Attachments/Foregrip/Fortis_SHIFT_Short_M-LOK_Angled_Foregrip/BP_Fortis_SHIFT_Short_M-LOK_Angled_Foregrip.BP_Fortis_SHIFT_Short_M-LOK_Angled_Foregrip_C:InheritableComponentHandler'";
+    class UInventoryComponent* InventoryComponent = "InventoryComponent'Test_C/Content/Blueprints/InventorySystem/Items/Attachments/Foregrip/Fortis_SHIFT_Short_M-LOK_Angled_Foregrip/BP_Fortis_SHIFT_Short_M-LOK_Angled_Foregrip.Default__BP_Fortis_SHIFT_Short_M-LOK_Angled_Foregrip_C:InventoryComponent'";
+    class UPickUpComponent* PickUpComponent = "PickUpComponent'Test_C/Content/Blueprints/InventorySystem/Items/Attachments/Foregrip/Fortis_SHIFT_Short_M-LOK_Angled_Foregrip/BP_Fortis_SHIFT_Short_M-LOK_Angled_Foregrip.Default__BP_Fortis_SHIFT_Short_M-LOK_Angled_Foregrip_C:PickupComponent'";
+};

@@ -1,0 +1,10 @@
+class UU_ProtectionLevel_C : public UStatItemConfig
+{
+public:
+    class UWidgetBlueprintGeneratedClass* StatWidget = "WidgetBlueprintGeneratedClass'Test_C/Content/Blueprints/InventorySystem/Widgets/Stats/W_StatPlainTextBox.W_StatPlainTextBox_C'";
+    struct FGameplayTag StatTag = {
+        "TagName": FName("Inventory.Stats.Protection Level")
+    };
+    FText StatDisplayName = FText("Protection Level");
+    class UTexture2D* StatIcon = "Texture2D'Test_C/Content/Blueprints/InventorySystem/Textures/Stats/T_Armor_256x256.T_Armor_256x256'";
+};

@@ -1,0 +1,1 @@
+class UBP_FPCC_AutoLowReady_C : public UFirstPersonAutoLowReady;

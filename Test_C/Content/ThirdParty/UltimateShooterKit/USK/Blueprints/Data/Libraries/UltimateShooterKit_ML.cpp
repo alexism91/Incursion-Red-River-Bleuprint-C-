@@ -1,0 +1,1 @@
+class UUltimateShooterKit_ML_C : public UObject;

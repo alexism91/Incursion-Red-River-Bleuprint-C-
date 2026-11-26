@@ -1,0 +1,1 @@
+class UBP_MontageComponent_C : public UMontageComponent;

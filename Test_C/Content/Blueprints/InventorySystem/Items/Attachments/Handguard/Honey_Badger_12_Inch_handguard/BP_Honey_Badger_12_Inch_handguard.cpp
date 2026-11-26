@@ -1,0 +1,9 @@
+class ABP_Honey_Badger_12_Inch_handguard_C : public ABP_MasterHandguard_C
+{
+public:
+    bool bHasCookedComponentInstancingData = true;
+    class USimpleConstructionScript* SimpleConstructionScript = "SimpleConstructionScript'Test_C/Content/Blueprints/InventorySystem/Items/Attachments/Handguard/Honey_Badger_12_Inch_handguard/BP_Honey_Badger_12_Inch_handguard.BP_Honey_Badger_12_Inch_handguard_C:SimpleConstructionScript_0'";
+    class UInheritableComponentHandler* InheritableComponentHandler = "InheritableComponentHandler'Test_C/Content/Blueprints/InventorySystem/Items/Attachments/Handguard/Honey_Badger_12_Inch_handguard/BP_Honey_Badger_12_Inch_handguard.BP_Honey_Badger_12_Inch_handguard_C:InheritableComponentHandler'";
+    class UInventoryComponent* InventoryComponent = "InventoryComponent'Test_C/Content/Blueprints/InventorySystem/Items/Attachments/Handguard/Honey_Badger_12_Inch_handguard/BP_Honey_Badger_12_Inch_handguard.Default__BP_Honey_Badger_12_Inch_handguard_C:InventoryComponent'";
+    class UPickUpComponent* PickUpComponent = "PickUpComponent'Test_C/Content/Blueprints/InventorySystem/Items/Attachments/Handguard/Honey_Badger_12_Inch_handguard/BP_Honey_Badger_12_Inch_handguard.Default__BP_Honey_Badger_12_Inch_handguard_C:PickupComponent'";
+};

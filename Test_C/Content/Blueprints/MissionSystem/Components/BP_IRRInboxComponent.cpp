@@ -1,0 +1,1 @@
+class UBP_IRRInboxComponent_C : public UIRRInboxComponent;

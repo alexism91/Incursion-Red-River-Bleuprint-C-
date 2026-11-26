@@ -1,0 +1,1 @@
+class UVis_FunctionLibrary_C : public UBlueprintFunctionLibrary;

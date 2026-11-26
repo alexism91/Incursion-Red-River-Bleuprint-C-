@@ -1,0 +1,1 @@
+class UBP_IRRObjectiveComponent_C : public UIRRObjectiveComponent;
